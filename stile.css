@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+  
+  body{
+    background:#FFF5C5;
+    font-family: "Shrikhand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+#cont{
+    font-family: "Shrikhand", system-ui;
+    font-style: normal;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:5rem;
+  
+  }
+  
+  .bt {
+  background: #ffd9e2;
+  border-radius: 40px;
+  margin-top: 0.5rem;
+  border: solid black 0.15rem;
+  transition: all 0.3s ease;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 10px 20px;
+  text-decoration:none;
+  color:black;
+  }
+  
+  .bt:hover {
+  padding: 20px 40px;
+  font-size: 20px;
+  border: solid black 0.25rem;
+  background:#C8A2C8;
+  }
+  
+  .current{
+    background:#FFC5D3;
+  }
+  
+  .current:hover{
+    background:#FFC5D3 !important;
+  }
+
+  #footer{
+  background:#C8A2C8;
+  padding:20px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  width:100%;
+  font-family: "Shrikhand", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#pic4{
+    display: flex;
+    justify-content: center;
+    margin:0;
+  }
+
+#picccc4 {
+    width: 100%;
+    height: 100%;
+  }
+  #laster{
+    text-align:center;
+    width:50%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-left:25%;
+  }
+
+  #smth{
+    opacity:0;
+  }
+
+  #mores{
+    opacity:0;
+  }
+
+  button{
+    padding: 10px;
+    font-size:20px;
+    font-family: "Shrikhand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border-radius:10px;
+    border: 2px solid black;
+    background: #fff;
+    box-shadow: 4px 4px 0 black;
+    margin-top:2%;
+    margin-bottom:2%;
+    cursor:pointer;
+  }
+
+  button:hover{
+    border: 2px solid #fff;
+    background: black;
+    box-shadow: 4px 4px 0 #fff;
+    color:#fff;
+  }
+
+  .show{
+    opacity:1;
+  }
+
+  #lastllasy{
+    background:url( othr1.png) no-repeat center center/cover;
+    width:100%;
+    height:300px;
+    animation-name:mrron;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: steps(1, end);
+    margin-bottom:2%;
+  }
+
+  #othrlas{
+    display: flex;
+    justify-content: center;
+    margin:0;
+  }
+
+  @keyframes mrron{
+    0%{
+      background:url( othr1.png) no-repeat center center/cover;
+    }
+    12.5%{
+        background:url( othr2.png) no-repeat center center/cover;
+    }
+    25%{
+      background:url( othr3.png) no-repeat center center/cover;
+    }
+    37.5%{
+        background:url( othr4.png) no-repeat center center/cover;
+    }
+    50%{
+        background:url( othr4.png) no-repeat center center/cover;
+    }
+    62.5%{
+        background:url( othr3.png) no-repeat center center/cover;
+    }
+    75%{
+          background:url( othr2.png) no-repeat center center/cover;
+    }
+    100%{
+          background:url( othr1.png) no-repeat center center/cover;
+    }
+  }
