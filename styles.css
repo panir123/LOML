@@ -126,7 +126,7 @@
     height: auto;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 900px) {
 
     #container{
       display:grid;
