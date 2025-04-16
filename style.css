@@ -160,3 +160,26 @@
     font-weight: 400;
     font-style: normal;
  }
+
+@media (max-width: 1100px) {
+  #pic{
+    display:none;
+  }
+
+  #pics{
+    display:none;
+  }
+
+  #ton{
+    display:none;
+  }
+
+  #rl{
+    display:none;
+  }
+
+  #container{
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
+}
