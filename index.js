@@ -34,6 +34,14 @@ rl.addEventListener('mouseout', function() {
     });
   }
 
+  function funsie(index) {
+    const letters = document.querySelectorAll(".letters");
+    letters.forEach((letter) => {
+      letter.style.transform = "scale(1.4)";
+    });
+  }
+  
+
 
 
   function prick() {
