@@ -83,6 +83,12 @@
     transition: transform 0.5s ease-in-out;
   }
 
+
+  .letters:hover{
+    transform:scale(1.2);
+  }
+
+
   #container{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
